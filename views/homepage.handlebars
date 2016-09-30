@@ -1,0 +1,47 @@
+<div class="container stretch">
+		
+		<div class="jumbotron colorMain">
+			<h1 class="text-center loginstyle"><span class="glyphicon glyphicon-apple"></span> Welcome to Classroom Central</h1>
+			<hr>
+						<div class="row">
+				<div class="pull-right">
+					<a href="/{{otherAction}}" class="btn btn-success" type="submit" id="submitUser">{{otherAction}}</a>
+				</div>
+			</div>
+			<br>
+
+
+			<div class="row">
+				<div class="col-md-5 col-md-offset-5">
+					<h1 id='message1'> {{newPass}} </h1>
+				</div>
+			<div>
+
+			<form method="post" action="/{{actionPush}}">
+				<div class="row">
+					<div class="col-md-4 col-md-offset-4">
+						<input type="text" class="form-control" id="formGroupExampleInput username" name="username" placeholder="Username" />
+
+
+
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-md-4 col-md-offset-4">
+						<input class="form-control" id="formGroupExampleInput password" type="password" name="password" placeholder="Password" />
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-md-5 col-md-offset-5">
+						<button type="submit" class="btn btn-lg btn-primary" id="submitUser"><span class="glyphicon glyphicon-send"></span> Submit</button>
+					</div>
+				</div>
+			</form>
+
+			<br>
+
+
+</div>
+

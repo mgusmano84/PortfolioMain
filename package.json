@@ -1,0 +1,35 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "A family/teacher communication tool that allows for everyone to keep up to date with whats going on in the classroom.",
+  "main": "y",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgusmano84/ClassroomCentral.git"
+  },
+  "author": "Matthew Gusmano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgusmano84/ClassroomCentral/issues"
+  },
+  "homepage": "https://github.com/mgusmano84/ClassroomCentral#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "connect-flash": "^0.1.1",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.5",
+    "morgan": "^1.7.0",
+    "mysql": "^2.11.1",
+    "node-bourbon": "^4.2.8",
+    "node-neat": "^1.7.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "4.4.5"
+  }
+}
